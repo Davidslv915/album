@@ -1,0 +1,28 @@
+body{background: #f0e402;
+background: linear-gradient(155deg,rgba(240, 228, 2, 1) 9%, rgba(0, 0, 0, 1) 16%);}
+h1{color:white;}
+h2{ color: white;}
+p{ color: white;}
+h3{ color: white;}
+li{color: white}
+
+
+
+a :hover{
+    color: red;
+}
+
+img{
+border:2px solid yellow ;
+padding:10px ;
+display: inline-block;
+}
+  
+.bloc {
+  position: relative; /* Sert de repère pour l'image */
+}
+
+
+
+
+
