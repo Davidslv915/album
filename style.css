@@ -1,28 +1,61 @@
-body{background: #f0e402;
-background: linear-gradient(155deg,rgba(240, 228, 2, 1) 9%, rgba(0, 0, 0, 1) 16%);}
-h1{color:white;}
-h2{ color: white;}
-p{ color: white;}
-h3{ color: white;}
-li{color: white}
-
-
-
-a :hover{
-    color: red;
+body {
+  background: #f0e402;
+  background: linear-gradient(155deg, rgba(240, 228, 2, 1) 9%, rgba(0, 0, 0, 1) 16%);
 }
 
-img{
-border:2px solid blue ;
-padding:10px ;
-display: inline-block;
+h1 {
+  color: black;
 }
-  
+
+h2 {
+  color: black;
+}
+
+p {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+  color: red;
+}
+
+li {
+  color: white;
+  font-family:Arial, Helvetica, sans-serif
+}
+
+
+
+a :hover {
+  color: red;
+}
+
+img {
+  border: 2px solid black;
+  padding: 10px;
+  display: inline-block;
+}
+
 .bloc {
-  position: relative; /* Sert de repère pour l'image */
+  position: relative;
+  /* Sert de repère pour l'image */
 }
 
 
+ol {
+  border: 2px solid black;
+  padding: 10px;
+  display: inline-mansory;
+  list-style-position: inside;
+  /* Garde les numéros bien alignés */
+  /* Centre le texte et les numéros */
+}
 
-
+body {
+  background-image: url("https://raplume.eu/wp-content/uploads/2021/06/E4G0AbOWEAgaVSj.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;/
+}
 
